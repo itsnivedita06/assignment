@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 90%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    padding: 22px 20px;
+}
+
+.left-div{
+    height: 90%;
+}
+
+.picture{
+    height: 100%;
+}
+
+.logo{
+   position: absolute;
+   width: 64px;
+   height: 22px;
+   left: 50px;
+   top: 64px;
+}
+
+.text{
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    left: 50px;
+    top: 280px;
+}  
+
+.globe{
+    position: absolute;
+    left: 50px;
+    bottom: 75px;
+}
+
+.text3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    left: 70px;
+    bottom: 75px;
+    position: absolute;
+    color: #BFBFBF;
+}
+.right-div{
+    height: 90%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.petal{  
+width: 61px;
+height: 49px;
+right: 250px;
+top: 78px;
+}
+
+.heading{
+font-family: Poppins;
+font-size: 34px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 15px;
+}
+
+.head-name{
+    color: #08A593;
+}
+.text1{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: #667085;
+margin-bottom: 20px;
+}
+
+.field{
+width: 68%;
+opacity: 0.45;
+border: 1px solid #464660;
+border-radius: 10px;
+height: 49px;
+margin: 5px;
+padding: 5px;
+}
+
+.pass{
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #667085;
+margin-left: 200px;
+
+
+}
+
+.button{
+    background-color: black;
+    color: white;
+    width: 68%;
+    border: 1px solid #464660;
+    border-radius: 10px;
+    height: 49px;
+    margin: 35px;
+    text-align: center;
+}
+
+.Sign{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+
+
+}
